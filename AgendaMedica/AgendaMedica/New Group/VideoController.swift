@@ -14,7 +14,7 @@ class VideoController: UIViewController {
 
     
     @IBAction func presentacionVideo(_ sender: Any) {
-        if let path = Bundle.main.path(forResource: "lavadoManos", ofType: "MOV")
+        if let path = Bundle.main.path(forResource: "presentacion", ofType: "MOV")
         {
             let video = AVPlayer(url: URL(fileURLWithPath: path))
             let videoPlayer = AVPlayerViewController()

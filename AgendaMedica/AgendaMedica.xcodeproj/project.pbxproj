@@ -44,6 +44,8 @@
 		A22E3FDF2395094A00ED5CBE /* VideoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22E3FDE2395094A00ED5CBE /* VideoController.swift */; };
 		A2B305462396282A0064153D /* inyeccion2.MOV in Resources */ = {isa = PBXBuildFile; fileRef = A2B305452396282A0064153D /* inyeccion2.MOV */; };
 		A2B3054823962C360064153D /* pastillas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A2B3054723962C360064153D /* pastillas.jpg */; };
+		A2B3054A23962F9E0064153D /* inyeccion1.MOV in Resources */ = {isa = PBXBuildFile; fileRef = A2B3054923962F9D0064153D /* inyeccion1.MOV */; };
+		A2B3054C2396332C0064153D /* youTubeManos.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B3054B2396332C0064153D /* youTubeManos.swift */; };
 		A2DE21162388B6C8000EB9B5 /* MapaWeb.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DE21152388B6C8000EB9B5 /* MapaWeb.swift */; };
 		A2DE211E2388BB06000EB9B5 /* doc.png in Resources */ = {isa = PBXBuildFile; fileRef = A2DE211D2388BB06000EB9B5 /* doc.png */; };
 /* End PBXBuildFile section */
@@ -88,6 +90,8 @@
 		A22E3FDE2395094A00ED5CBE /* VideoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoController.swift; sourceTree = "<group>"; };
 		A2B305452396282A0064153D /* inyeccion2.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = inyeccion2.MOV; sourceTree = "<group>"; };
 		A2B3054723962C360064153D /* pastillas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = pastillas.jpg; path = ../../../AgendaMedicaDefCodes/LoDeLaUSB/AgendaMedica/pastillas.jpg; sourceTree = "<group>"; };
+		A2B3054923962F9D0064153D /* inyeccion1.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = inyeccion1.MOV; sourceTree = "<group>"; };
+		A2B3054B2396332C0064153D /* youTubeManos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = youTubeManos.swift; sourceTree = "<group>"; };
 		A2DE21152388B6C8000EB9B5 /* MapaWeb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapaWeb.swift; sourceTree = "<group>"; };
 		A2DE211D2388BB06000EB9B5 /* doc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doc.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -200,7 +204,9 @@
 			isa = PBXGroup;
 			children = (
 				A22E3FDE2395094A00ED5CBE /* VideoController.swift */,
+				A2B3054B2396332C0064153D /* youTubeManos.swift */,
 				A2B305452396282A0064153D /* inyeccion2.MOV */,
+				A2B3054923962F9D0064153D /* inyeccion1.MOV */,
 				A22E3FD72395074A00ED5CBE /* presentacion.MOV */,
 			);
 			name = Videos;
@@ -282,6 +288,7 @@
 				9E2258332367B3FC00F93D96 /* candyperreo_opt.png in Resources */,
 				A2B3054823962C360064153D /* pastillas.jpg in Resources */,
 				9E2257EB23678B3C00F93D96 /* Actions.sks in Resources */,
+				A2B3054A23962F9E0064153D /* inyeccion1.MOV in Resources */,
 				A22E3FD22394FF5400ED5CBE /* FichaGenerada in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,6 +306,7 @@
 				4CA847AB238F2A63004D8A98 /* DatosDeFicha.swift in Sources */,
 				8DAD102823875B6200EF5FD0 /* FichaMedicaUIView.swift in Sources */,
 				8DD1B1CF23908E95006C06EF /* DetallesPresion.swift in Sources */,
+				A2B3054C2396332C0064153D /* youTubeManos.swift in Sources */,
 				8D9312D12391CB8B00B47E27 /* RegistrosGlucosa.swift in Sources */,
 				8D9312CD2391CB3C00B47E27 /* ArregloGlucosa.swift in Sources */,
 				4CA847AF238F4879004D8A98 /* PresionArterial.swift in Sources */,

@@ -1204,7 +1204,7 @@
                                 <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="30"/>
                                 <state key="normal" title="Presentacion"/>
                                 <connections>
-                                    <action selector="presentacionVideo:" destination="iMd-9g-E0U" eventType="touchUpInside" id="kwK-FT-cGy"/>
+                                    <action selector="presentacionVideo:" destination="iMd-9g-E0U" eventType="touchUpInside" id="a2c-z9-8Tl"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fa7-3i-KMB">
@@ -1213,6 +1213,7 @@
                                 <state key="normal" title="Lavado de manos"/>
                                 <connections>
                                     <action selector="LavadoManosVid:" destination="iMd-9g-E0U" eventType="touchUpInside" id="WA5-jL-Fi8"/>
+                                    <segue destination="qlo-Ts-y0O" kind="push" id="GS7-BY-UeC"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xEw-vI-NWK">
@@ -1224,15 +1225,15 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U4o-OF-1RO">
-                                <rect key="frame" x="71" y="540" width="272" height="60"/>
+                                <rect key="frame" x="30" y="540" width="348" height="60"/>
                                 <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="30"/>
                                 <state key="normal" title="Inyeccion: Primera parte"/>
                                 <connections>
                                     <action selector="primeraInyVid:" destination="iMd-9g-E0U" eventType="touchUpInside" id="c15-H4-poG"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9VL-dD-3vY">
-                                <rect key="frame" x="67" y="659" width="280" height="60"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9VL-dD-3vY">
+                                <rect key="frame" x="58" y="650" width="299" height="60"/>
                                 <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="30"/>
                                 <state key="normal" title="Inyeccion: Segunda parte"/>
                                 <connections>
@@ -1242,19 +1243,19 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="9VL-dD-3vY" firstAttribute="top" secondItem="U4o-OF-1RO" secondAttribute="bottom" constant="59" id="5Pk-JW-18k"/>
-                            <constraint firstItem="9VL-dD-3vY" firstAttribute="centerX" secondItem="U4o-OF-1RO" secondAttribute="centerX" id="6j1-cG-sPM"/>
-                            <constraint firstItem="9VL-dD-3vY" firstAttribute="centerX" secondItem="xEw-vI-NWK" secondAttribute="centerX" id="Des-vU-5Jd"/>
-                            <constraint firstItem="V4b-38-bwQ" firstAttribute="trailing" secondItem="9VL-dD-3vY" secondAttribute="trailing" constant="67" id="Ip7-2S-jld"/>
+                            <constraint firstItem="U4o-OF-1RO" firstAttribute="leading" secondItem="V4b-38-bwQ" secondAttribute="leading" constant="30" id="1dS-Xt-bXE"/>
+                            <constraint firstItem="xEw-vI-NWK" firstAttribute="centerX" secondItem="fa7-3i-KMB" secondAttribute="centerX" id="2lM-Ea-Lyg"/>
+                            <constraint firstItem="V4b-38-bwQ" firstAttribute="trailing" secondItem="U4o-OF-1RO" secondAttribute="trailing" constant="36" id="7r7-dc-Wxu"/>
+                            <constraint firstItem="fa7-3i-KMB" firstAttribute="leading" secondItem="V4b-38-bwQ" secondAttribute="leading" constant="108.5" id="Ciz-ej-cdy"/>
                             <constraint firstItem="GV5-8t-dhm" firstAttribute="leading" secondItem="V4b-38-bwQ" secondAttribute="leading" constant="161" id="QSz-Lo-IHM"/>
+                            <constraint firstItem="587-Uu-l7D" firstAttribute="centerX" secondItem="fa7-3i-KMB" secondAttribute="centerX" id="QZ5-XB-jPx"/>
+                            <constraint firstItem="9VL-dD-3vY" firstAttribute="top" secondItem="U4o-OF-1RO" secondAttribute="bottom" constant="50" id="Rlv-cg-mbg"/>
+                            <constraint firstItem="9VL-dD-3vY" firstAttribute="centerX" secondItem="xEw-vI-NWK" secondAttribute="centerX" id="UI7-xJ-e53"/>
                             <constraint firstItem="V4b-38-bwQ" firstAttribute="trailing" secondItem="GV5-8t-dhm" secondAttribute="trailing" constant="161" id="VQQ-6K-knr"/>
-                            <constraint firstItem="V4b-38-bwQ" firstAttribute="bottom" secondItem="9VL-dD-3vY" secondAttribute="bottom" constant="94" id="Y7e-S3-z8N"/>
-                            <constraint firstItem="587-Uu-l7D" firstAttribute="centerX" secondItem="fa7-3i-KMB" secondAttribute="centerX" id="aN2-Dw-sWm"/>
-                            <constraint firstItem="9VL-dD-3vY" firstAttribute="centerX" secondItem="fa7-3i-KMB" secondAttribute="centerX" id="b2d-Cd-c0V"/>
+                            <constraint firstItem="V4b-38-bwQ" firstAttribute="trailing" secondItem="fa7-3i-KMB" secondAttribute="trailing" constant="108.5" id="WSe-kw-OgR"/>
                             <constraint firstItem="xEw-vI-NWK" firstAttribute="top" secondItem="fa7-3i-KMB" secondAttribute="bottom" constant="51" id="eYj-4C-qW9"/>
-                            <constraint firstItem="9VL-dD-3vY" firstAttribute="leading" secondItem="V4b-38-bwQ" secondAttribute="leading" constant="67" id="g9L-v9-Gx3"/>
                             <constraint firstItem="587-Uu-l7D" firstAttribute="top" secondItem="GV5-8t-dhm" secondAttribute="bottom" constant="78" id="grT-xH-jtj"/>
-                            <constraint firstItem="9VL-dD-3vY" firstAttribute="centerX" secondItem="Ywn-te-iFW" secondAttribute="centerX" id="pjz-GV-yx4"/>
+                            <constraint firstItem="9VL-dD-3vY" firstAttribute="leading" secondItem="V4b-38-bwQ" secondAttribute="leading" constant="58" id="mdz-qD-BHj"/>
                             <constraint firstItem="587-Uu-l7D" firstAttribute="top" secondItem="Ywn-te-iFW" secondAttribute="top" constant="210" id="tHv-f7-MgI"/>
                             <constraint firstItem="fa7-3i-KMB" firstAttribute="top" secondItem="587-Uu-l7D" secondAttribute="bottom" constant="53" id="tMV-nl-H2i"/>
                             <constraint firstItem="U4o-OF-1RO" firstAttribute="top" secondItem="xEw-vI-NWK" secondAttribute="bottom" constant="46" id="zrg-T1-cn4"/>
@@ -1266,6 +1267,25 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9ZY-Vs-btd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3600.0000000000005" y="-803.57142857142856"/>
+        </scene>
+        <!--You Tube Manos-->
+        <scene sceneID="pjc-df-1Rq">
+            <objects>
+                <viewController id="qlo-Ts-y0O" customClass="youTubeManos" customModule="AgendaMedica" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YlL-fM-L0s">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <accessibility key="accessibilityConfiguration">
+                            <accessibilityTraits key="traits" staticText="YES"/>
+                        </accessibility>
+                        <viewLayoutGuide key="safeArea" id="EwN-hZ-ufO"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="973-2Y-P6t"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tpa-Zk-fFw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4311.594202898551" y="-804.24107142857144"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="pyx-kz-zhI">
