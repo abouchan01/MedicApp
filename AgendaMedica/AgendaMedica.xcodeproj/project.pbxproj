@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CA847AB238F2A63004D8A98 /* DatosDeFicha.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA847AA238F2A63004D8A98 /* DatosDeFicha.swift */; };
+		4CA847AF238F4879004D8A98 /* PresionArterial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA847AE238F4879004D8A98 /* PresionArterial.swift */; };
+		7D1C6AFB2370D34400260170 /* videojuegos.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D1C6AFA2370D34400260170 /* videojuegos.png */; };
+		8D9312C92391BA2000B47E27 /* RegistrosPresion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9312C82391BA2000B47E27 /* RegistrosPresion.swift */; };
+		8D9312CD2391CB3C00B47E27 /* ArregloGlucosa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9312CC2391CB3C00B47E27 /* ArregloGlucosa.swift */; };
+		8D9312CF2391CB6800B47E27 /* GlucosaUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9312CE2391CB6800B47E27 /* GlucosaUI.swift */; };
+		8D9312D12391CB8B00B47E27 /* RegistrosGlucosa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9312D02391CB8B00B47E27 /* RegistrosGlucosa.swift */; };
+		8D9312D32391CBBB00B47E27 /* DetallesGlucosa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9312D22391CBBB00B47E27 /* DetallesGlucosa.swift */; };
+		8D9312D72391E06A00B47E27 /* fondo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D9312D42391E06900B47E27 /* fondo.png */; };
+		8D9312D82391E06A00B47E27 /* fly1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D9312D52391E06900B47E27 /* fly1.png */; };
+		8D9312D92391E06A00B47E27 /* fly2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D9312D62391E06900B47E27 /* fly2.png */; };
+		8D9312DF2391E4D600B47E27 /* SentimientosUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9312DE2391E4D600B47E27 /* SentimientosUI.swift */; };
+		8D9312E12391E4EF00B47E27 /* RegistrosS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9312E02391E4EF00B47E27 /* RegistrosS.swift */; };
+		8D9312E32391E51100B47E27 /* DetallesSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9312E22391E51100B47E27 /* DetallesSViewController.swift */; };
+		8D9312E52391E53000B47E27 /* DatosSentimientos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9312E42391E53000B47E27 /* DatosSentimientos.swift */; };
+		8DAAE2D7238DFF7900798163 /* EditorFichaMedicaUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAAE2D6238DFF7900798163 /* EditorFichaMedicaUIView.swift */; };
+		8DAD102823875B6200EF5FD0 /* FichaMedicaUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAD102723875B6200EF5FD0 /* FichaMedicaUIView.swift */; };
+		8DD1B1CF23908E95006C06EF /* DetallesPresion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD1B1CE23908E95006C06EF /* DetallesPresion.swift */; };
+		8DD1B1D123909F9F006C06EF /* ArregloPresiones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD1B1D023909F9F006C06EF /* ArregloPresiones.swift */; };
+		9E2257E723678B3C00F93D96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2257E623678B3C00F93D96 /* AppDelegate.swift */; };
+		9E2257E923678B3C00F93D96 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9E2257E823678B3C00F93D96 /* GameScene.sks */; };
+		9E2257EB23678B3C00F93D96 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9E2257EA23678B3C00F93D96 /* Actions.sks */; };
+		9E2257ED23678B3C00F93D96 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2257EC23678B3C00F93D96 /* GameScene.swift */; };
+		9E2257EF23678B3C00F93D96 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2257EE23678B3C00F93D96 /* GameViewController.swift */; };
+		9E2257F223678B3C00F93D96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E2257F023678B3C00F93D96 /* Main.storyboard */; };
+		9E2257F423678B4800F93D96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E2257F323678B4800F93D96 /* Assets.xcassets */; };
+		9E2257F723678B4800F93D96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E2257F523678B4800F93D96 /* LaunchScreen.storyboard */; };
+		9E22580323678DE400F93D96 /* Tubo1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E2257FE23678DE300F93D96 /* Tubo1.png */; };
+		9E22580523678DE400F93D96 /* Tubo2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E22580023678DE400F93D96 /* Tubo2.png */; };
+		9E2258312367B1DA00F93D96 /* candyperreo.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E2258302367B1DA00F93D96 /* candyperreo.png */; };
+		9E2258332367B3FC00F93D96 /* candyperreo_opt.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E2258322367B3FC00F93D96 /* candyperreo_opt.png */; };
+		A22E3FD02394B4CA00ED5CBE /* FichaMedica.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22E3FCF2394B4CA00ED5CBE /* FichaMedica.swift */; };
+		A22E3FD22394FF5400ED5CBE /* FichaGenerada in Resources */ = {isa = PBXBuildFile; fileRef = A22E3FD12394FF5400ED5CBE /* FichaGenerada */; };
+		A22E3FDC2395075200ED5CBE /* presentacion.MOV in Resources */ = {isa = PBXBuildFile; fileRef = A22E3FD72395074A00ED5CBE /* presentacion.MOV */; };
+		A22E3FDF2395094A00ED5CBE /* VideoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22E3FDE2395094A00ED5CBE /* VideoController.swift */; };
+		A2B305462396282A0064153D /* inyeccion2.MOV in Resources */ = {isa = PBXBuildFile; fileRef = A2B305452396282A0064153D /* inyeccion2.MOV */; };
+		A2B3054823962C360064153D /* pastillas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A2B3054723962C360064153D /* pastillas.jpg */; };
+		A2DE21162388B6C8000EB9B5 /* MapaWeb.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DE21152388B6C8000EB9B5 /* MapaWeb.swift */; };
+		A2DE211E2388BB06000EB9B5 /* doc.png in Resources */ = {isa = PBXBuildFile; fileRef = A2DE211D2388BB06000EB9B5 /* doc.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4CA847AA238F2A63004D8A98 /* DatosDeFicha.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatosDeFicha.swift; sourceTree = "<group>"; };
+		4CA847AE238F4879004D8A98 /* PresionArterial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresionArterial.swift; sourceTree = "<group>"; };
+		7D1C6AFA2370D34400260170 /* videojuegos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = videojuegos.png; sourceTree = "<group>"; };
+		8D9312C82391BA2000B47E27 /* RegistrosPresion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrosPresion.swift; sourceTree = "<group>"; };
+		8D9312CC2391CB3C00B47E27 /* ArregloGlucosa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArregloGlucosa.swift; sourceTree = "<group>"; };
+		8D9312CE2391CB6800B47E27 /* GlucosaUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlucosaUI.swift; sourceTree = "<group>"; };
+		8D9312D02391CB8B00B47E27 /* RegistrosGlucosa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrosGlucosa.swift; sourceTree = "<group>"; };
+		8D9312D22391CBBB00B47E27 /* DetallesGlucosa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetallesGlucosa.swift; sourceTree = "<group>"; };
+		8D9312D42391E06900B47E27 /* fondo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fondo.png; sourceTree = "<group>"; };
+		8D9312D52391E06900B47E27 /* fly1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fly1.png; sourceTree = "<group>"; };
+		8D9312D62391E06900B47E27 /* fly2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fly2.png; sourceTree = "<group>"; };
+		8D9312DE2391E4D600B47E27 /* SentimientosUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentimientosUI.swift; sourceTree = "<group>"; };
+		8D9312E02391E4EF00B47E27 /* RegistrosS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrosS.swift; sourceTree = "<group>"; };
+		8D9312E22391E51100B47E27 /* DetallesSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetallesSViewController.swift; sourceTree = "<group>"; };
+		8D9312E42391E53000B47E27 /* DatosSentimientos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatosSentimientos.swift; sourceTree = "<group>"; };
+		8DAAE2D6238DFF7900798163 /* EditorFichaMedicaUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorFichaMedicaUIView.swift; sourceTree = "<group>"; };
+		8DAD102723875B6200EF5FD0 /* FichaMedicaUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FichaMedicaUIView.swift; sourceTree = "<group>"; };
+		8DD1B1CE23908E95006C06EF /* DetallesPresion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetallesPresion.swift; sourceTree = "<group>"; };
+		8DD1B1D023909F9F006C06EF /* ArregloPresiones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArregloPresiones.swift; sourceTree = "<group>"; };
+		9E2257E323678B3C00F93D96 /* AgendaMedica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AgendaMedica.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E2257E623678B3C00F93D96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9E2257E823678B3C00F93D96 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		9E2257EA23678B3C00F93D96 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		9E2257EC23678B3C00F93D96 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		9E2257EE23678B3C00F93D96 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		9E2257F123678B3C00F93D96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9E2257F323678B4800F93D96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9E2257F623678B4800F93D96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9E2257F823678B4800F93D96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E2257FE23678DE300F93D96 /* Tubo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tubo1.png; sourceTree = "<group>"; };
+		9E22580023678DE400F93D96 /* Tubo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tubo2.png; sourceTree = "<group>"; };
+		9E2258302367B1DA00F93D96 /* candyperreo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = candyperreo.png; sourceTree = "<group>"; };
+		9E2258322367B3FC00F93D96 /* candyperreo_opt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = candyperreo_opt.png; sourceTree = "<group>"; };
+		A22E3FCF2394B4CA00ED5CBE /* FichaMedica.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FichaMedica.swift; sourceTree = "<group>"; };
+		A22E3FD12394FF5400ED5CBE /* FichaGenerada */ = {isa = PBXFileReference; lastKnownFileType = text; path = FichaGenerada; sourceTree = "<group>"; };
+		A22E3FD72395074A00ED5CBE /* presentacion.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = presentacion.MOV; sourceTree = "<group>"; };
+		A22E3FDE2395094A00ED5CBE /* VideoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoController.swift; sourceTree = "<group>"; };
+		A2B305452396282A0064153D /* inyeccion2.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = inyeccion2.MOV; sourceTree = "<group>"; };
+		A2B3054723962C360064153D /* pastillas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = pastillas.jpg; path = ../../../AgendaMedicaDefCodes/LoDeLaUSB/AgendaMedica/pastillas.jpg; sourceTree = "<group>"; };
+		A2DE21152388B6C8000EB9B5 /* MapaWeb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapaWeb.swift; sourceTree = "<group>"; };
+		A2DE211D2388BB06000EB9B5 /* doc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doc.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9E2257E023678B3C00F93D96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D9312CB2391CA8400B47E27 /* Glucosa */ = {
+			isa = PBXGroup;
+			children = (
+				8D9312CC2391CB3C00B47E27 /* ArregloGlucosa.swift */,
+				8D9312CE2391CB6800B47E27 /* GlucosaUI.swift */,
+				8D9312D02391CB8B00B47E27 /* RegistrosGlucosa.swift */,
+				8D9312D22391CBBB00B47E27 /* DetallesGlucosa.swift */,
+			);
+			name = Glucosa;
+			sourceTree = "<group>";
+		};
+		8D9312DD2391E34E00B47E27 /* Sentimientos */ = {
+			isa = PBXGroup;
+			children = (
+				8D9312DE2391E4D600B47E27 /* SentimientosUI.swift */,
+				8D9312E02391E4EF00B47E27 /* RegistrosS.swift */,
+				8D9312E22391E51100B47E27 /* DetallesSViewController.swift */,
+				8D9312E42391E53000B47E27 /* DatosSentimientos.swift */,
+			);
+			name = Sentimientos;
+			sourceTree = "<group>";
+		};
+		8DD1B1C8239068E1006C06EF /* PresionA */ = {
+			isa = PBXGroup;
+			children = (
+				8DD1B1D023909F9F006C06EF /* ArregloPresiones.swift */,
+				4CA847AE238F4879004D8A98 /* PresionArterial.swift */,
+				8DD1B1CE23908E95006C06EF /* DetallesPresion.swift */,
+				8D9312C82391BA2000B47E27 /* RegistrosPresion.swift */,
+			);
+			name = PresionA;
+			sourceTree = "<group>";
+		};
+		8DD1B1CB23906924006C06EF /* FichaMedica */ = {
+			isa = PBXGroup;
+			children = (
+				4CA847AA238F2A63004D8A98 /* DatosDeFicha.swift */,
+				8DAD102723875B6200EF5FD0 /* FichaMedicaUIView.swift */,
+				A22E3FD12394FF5400ED5CBE /* FichaGenerada */,
+				8DAAE2D6238DFF7900798163 /* EditorFichaMedicaUIView.swift */,
+			);
+			name = FichaMedica;
+			sourceTree = "<group>";
+		};
+		9E2257DA23678B3C00F93D96 = {
+			isa = PBXGroup;
+			children = (
+				9E2257E523678B3C00F93D96 /* AgendaMedica */,
+				9E2257E423678B3C00F93D96 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9E2257E423678B3C00F93D96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E2257E323678B3C00F93D96 /* AgendaMedica.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E2257E523678B3C00F93D96 /* AgendaMedica */ = {
+			isa = PBXGroup;
+			children = (
+				A22E3FD32395057400ED5CBE /* Videos */,
+				8D9312DD2391E34E00B47E27 /* Sentimientos */,
+				8D9312CB2391CA8400B47E27 /* Glucosa */,
+				8DD1B1CB23906924006C06EF /* FichaMedica */,
+				8DD1B1C8239068E1006C06EF /* PresionA */,
+				9E2257E623678B3C00F93D96 /* AppDelegate.swift */,
+				9E2257F023678B3C00F93D96 /* Main.storyboard */,
+				A22E3FCF2394B4CA00ED5CBE /* FichaMedica.swift */,
+				A2DE21152388B6C8000EB9B5 /* MapaWeb.swift */,
+				9E2257E823678B3C00F93D96 /* GameScene.sks */,
+				9E2257EA23678B3C00F93D96 /* Actions.sks */,
+				9E2257EC23678B3C00F93D96 /* GameScene.swift */,
+				9E2257EE23678B3C00F93D96 /* GameViewController.swift */,
+				8D9312D52391E06900B47E27 /* fly1.png */,
+				8D9312D62391E06900B47E27 /* fly2.png */,
+				8D9312D42391E06900B47E27 /* fondo.png */,
+				A2DE211D2388BB06000EB9B5 /* doc.png */,
+				9E2258322367B3FC00F93D96 /* candyperreo_opt.png */,
+				9E2258302367B1DA00F93D96 /* candyperreo.png */,
+				7D1C6AFA2370D34400260170 /* videojuegos.png */,
+				9E2257FE23678DE300F93D96 /* Tubo1.png */,
+				A2B3054723962C360064153D /* pastillas.jpg */,
+				9E22580023678DE400F93D96 /* Tubo2.png */,
+				9E2257F323678B4800F93D96 /* Assets.xcassets */,
+				9E2257F523678B4800F93D96 /* LaunchScreen.storyboard */,
+				9E2257F823678B4800F93D96 /* Info.plist */,
+			);
+			path = AgendaMedica;
+			sourceTree = "<group>";
+		};
+		A22E3FD32395057400ED5CBE /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				A22E3FDE2395094A00ED5CBE /* VideoController.swift */,
+				A2B305452396282A0064153D /* inyeccion2.MOV */,
+				A22E3FD72395074A00ED5CBE /* presentacion.MOV */,
+			);
+			name = Videos;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9E2257E223678B3C00F93D96 /* AgendaMedica */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E2257FB23678B4800F93D96 /* Build configuration list for PBXNativeTarget "AgendaMedica" */;
+			buildPhases = (
+				9E2257DF23678B3C00F93D96 /* Sources */,
+				9E2257E023678B3C00F93D96 /* Frameworks */,
+				9E2257E123678B3C00F93D96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AgendaMedica;
+			productName = AgendaMedica;
+			productReference = 9E2257E323678B3C00F93D96 /* AgendaMedica.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9E2257DB23678B3C00F93D96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = DefCodes;
+				TargetAttributes = {
+					9E2257E223678B3C00F93D96 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = 9E2257DE23678B3C00F93D96 /* Build configuration list for PBXProject "AgendaMedica" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9E2257DA23678B3C00F93D96;
+			productRefGroup = 9E2257E423678B3C00F93D96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E2257E223678B3C00F93D96 /* AgendaMedica */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9E2257E123678B3C00F93D96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2DE211E2388BB06000EB9B5 /* doc.png in Resources */,
+				9E22580523678DE400F93D96 /* Tubo2.png in Resources */,
+				8D9312D92391E06A00B47E27 /* fly2.png in Resources */,
+				8D9312D72391E06A00B47E27 /* fondo.png in Resources */,
+				9E2257F223678B3C00F93D96 /* Main.storyboard in Resources */,
+				9E2257E923678B3C00F93D96 /* GameScene.sks in Resources */,
+				7D1C6AFB2370D34400260170 /* videojuegos.png in Resources */,
+				A22E3FDC2395075200ED5CBE /* presentacion.MOV in Resources */,
+				9E2257F423678B4800F93D96 /* Assets.xcassets in Resources */,
+				A2B305462396282A0064153D /* inyeccion2.MOV in Resources */,
+				8D9312D82391E06A00B47E27 /* fly1.png in Resources */,
+				9E2258312367B1DA00F93D96 /* candyperreo.png in Resources */,
+				9E22580323678DE400F93D96 /* Tubo1.png in Resources */,
+				9E2257F723678B4800F93D96 /* LaunchScreen.storyboard in Resources */,
+				9E2258332367B3FC00F93D96 /* candyperreo_opt.png in Resources */,
+				A2B3054823962C360064153D /* pastillas.jpg in Resources */,
+				9E2257EB23678B3C00F93D96 /* Actions.sks in Resources */,
+				A22E3FD22394FF5400ED5CBE /* FichaGenerada in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E2257DF23678B3C00F93D96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2DE21162388B6C8000EB9B5 /* MapaWeb.swift in Sources */,
+				8D9312E52391E53000B47E27 /* DatosSentimientos.swift in Sources */,
+				9E2257ED23678B3C00F93D96 /* GameScene.swift in Sources */,
+				4CA847AB238F2A63004D8A98 /* DatosDeFicha.swift in Sources */,
+				8DAD102823875B6200EF5FD0 /* FichaMedicaUIView.swift in Sources */,
+				8DD1B1CF23908E95006C06EF /* DetallesPresion.swift in Sources */,
+				8D9312D12391CB8B00B47E27 /* RegistrosGlucosa.swift in Sources */,
+				8D9312CD2391CB3C00B47E27 /* ArregloGlucosa.swift in Sources */,
+				4CA847AF238F4879004D8A98 /* PresionArterial.swift in Sources */,
+				8D9312C92391BA2000B47E27 /* RegistrosPresion.swift in Sources */,
+				8D9312CF2391CB6800B47E27 /* GlucosaUI.swift in Sources */,
+				8DAAE2D7238DFF7900798163 /* EditorFichaMedicaUIView.swift in Sources */,
+				8D9312D32391CBBB00B47E27 /* DetallesGlucosa.swift in Sources */,
+				A22E3FDF2395094A00ED5CBE /* VideoController.swift in Sources */,
+				8D9312E12391E4EF00B47E27 /* RegistrosS.swift in Sources */,
+				9E2257EF23678B3C00F93D96 /* GameViewController.swift in Sources */,
+				8DD1B1D123909F9F006C06EF /* ArregloPresiones.swift in Sources */,
+				9E2257E723678B3C00F93D96 /* AppDelegate.swift in Sources */,
+				8D9312E32391E51100B47E27 /* DetallesSViewController.swift in Sources */,
+				A22E3FD02394B4CA00ED5CBE /* FichaMedica.swift in Sources */,
+				8D9312DF2391E4D600B47E27 /* SentimientosUI.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9E2257F023678B3C00F93D96 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E2257F123678B3C00F93D96 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9E2257F523678B4800F93D96 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E2257F623678B4800F93D96 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9E2257F923678B4800F93D96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9E2257FA23678B4800F93D96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E2257FC23678B4800F93D96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CZTZ3772AM;
+				INFOPLIST_FILE = AgendaMedica/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DefCodes.AgendaMedica;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9E2257FD23678B4800F93D96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CZTZ3772AM;
+				INFOPLIST_FILE = AgendaMedica/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DefCodes.AgendaMedica;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9E2257DE23678B3C00F93D96 /* Build configuration list for PBXProject "AgendaMedica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E2257F923678B4800F93D96 /* Debug */,
+				9E2257FA23678B4800F93D96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E2257FB23678B4800F93D96 /* Build configuration list for PBXNativeTarget "AgendaMedica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E2257FC23678B4800F93D96 /* Debug */,
+				9E2257FD23678B4800F93D96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9E2257DB23678B3C00F93D96 /* Project object */;
+}
