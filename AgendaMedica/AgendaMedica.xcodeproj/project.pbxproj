@@ -40,8 +40,8 @@
 		9E2258332367B3FC00F93D96 /* candyperreo_opt.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E2258322367B3FC00F93D96 /* candyperreo_opt.png */; };
 		A22E3FD02394B4CA00ED5CBE /* FichaMedica.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22E3FCF2394B4CA00ED5CBE /* FichaMedica.swift */; };
 		A22E3FD22394FF5400ED5CBE /* FichaGenerada in Resources */ = {isa = PBXBuildFile; fileRef = A22E3FD12394FF5400ED5CBE /* FichaGenerada */; };
-		A22E3FDC2395075200ED5CBE /* presentacion.MOV in Resources */ = {isa = PBXBuildFile; fileRef = A22E3FD72395074A00ED5CBE /* presentacion.MOV */; };
 		A22E3FDF2395094A00ED5CBE /* VideoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22E3FDE2395094A00ED5CBE /* VideoController.swift */; };
+		A28A0E3C2396414A00E58ABC /* presentacion.MOV in Resources */ = {isa = PBXBuildFile; fileRef = A28A0E3B2396414900E58ABC /* presentacion.MOV */; };
 		A2B305462396282A0064153D /* inyeccion2.MOV in Resources */ = {isa = PBXBuildFile; fileRef = A2B305452396282A0064153D /* inyeccion2.MOV */; };
 		A2B3054823962C360064153D /* pastillas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A2B3054723962C360064153D /* pastillas.jpg */; };
 		A2B3054A23962F9E0064153D /* inyeccion1.MOV in Resources */ = {isa = PBXBuildFile; fileRef = A2B3054923962F9D0064153D /* inyeccion1.MOV */; };
@@ -86,8 +86,8 @@
 		9E2258322367B3FC00F93D96 /* candyperreo_opt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = candyperreo_opt.png; sourceTree = "<group>"; };
 		A22E3FCF2394B4CA00ED5CBE /* FichaMedica.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FichaMedica.swift; sourceTree = "<group>"; };
 		A22E3FD12394FF5400ED5CBE /* FichaGenerada */ = {isa = PBXFileReference; lastKnownFileType = text; path = FichaGenerada; sourceTree = "<group>"; };
-		A22E3FD72395074A00ED5CBE /* presentacion.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = presentacion.MOV; sourceTree = "<group>"; };
 		A22E3FDE2395094A00ED5CBE /* VideoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoController.swift; sourceTree = "<group>"; };
+		A28A0E3B2396414900E58ABC /* presentacion.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = presentacion.MOV; sourceTree = "<group>"; };
 		A2B305452396282A0064153D /* inyeccion2.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = inyeccion2.MOV; sourceTree = "<group>"; };
 		A2B3054723962C360064153D /* pastillas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = pastillas.jpg; path = ../../../AgendaMedicaDefCodes/LoDeLaUSB/AgendaMedica/pastillas.jpg; sourceTree = "<group>"; };
 		A2B3054923962F9D0064153D /* inyeccion1.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = inyeccion1.MOV; sourceTree = "<group>"; };
@@ -206,8 +206,8 @@
 				A22E3FDE2395094A00ED5CBE /* VideoController.swift */,
 				A2B3054B2396332C0064153D /* youTubeManos.swift */,
 				A2B305452396282A0064153D /* inyeccion2.MOV */,
+				A28A0E3B2396414900E58ABC /* presentacion.MOV */,
 				A2B3054923962F9D0064153D /* inyeccion1.MOV */,
-				A22E3FD72395074A00ED5CBE /* presentacion.MOV */,
 			);
 			name = Videos;
 			path = "New Group";
@@ -278,8 +278,8 @@
 				9E2257F223678B3C00F93D96 /* Main.storyboard in Resources */,
 				9E2257E923678B3C00F93D96 /* GameScene.sks in Resources */,
 				7D1C6AFB2370D34400260170 /* videojuegos.png in Resources */,
-				A22E3FDC2395075200ED5CBE /* presentacion.MOV in Resources */,
 				9E2257F423678B4800F93D96 /* Assets.xcassets in Resources */,
+				A28A0E3C2396414A00E58ABC /* presentacion.MOV in Resources */,
 				A2B305462396282A0064153D /* inyeccion2.MOV in Resources */,
 				8D9312D82391E06A00B47E27 /* fly1.png in Resources */,
 				9E2258312367B1DA00F93D96 /* candyperreo.png in Resources */,
